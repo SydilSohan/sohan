@@ -1,0 +1,376 @@
+/* --------------------Common --------------*/
+
+*{
+  padding: 0;
+  margin: 0;
+}
+div {
+  box-sizing: inherit;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: white;
+}
+
+section {
+  padding: 6% 15%;
+
+}
+a {
+  text-decoration: none;
+}
+
+/* --------------------NAVBAR Start--------------*/
+
+
+.navbar {
+  padding: 0;
+}
+
+.fixed-top {
+  padding : 0 20% 0% 22%;
+  background-color: white;
+  box-shadow: 0px 3px 20px 3px grey;
+
+}
+
+.appLab {
+  color: #fcae61;
+}
+.navbar-brand {
+  font-size: 2rem;
+font-weight: bold;
+}
+
+.nav-item {
+  color :#5a627c;
+  margin: .5rem 1rem;
+}
+.nav-item a {
+  color :#5a627c;
+
+}
+
+.try-for-free {
+  border-style: none;
+  border: 0;
+  padding: 0rem 1rem;
+  border-radius: 28px;
+  background-color: #2500f9;
+}
+.try-for-free a {
+  color : white !important;
+}
+/* --------------------NAVBAR END--------s------*/
+
+/* --------------------HERO_AREA START--------------*/
+#main-header {
+  padding-top: 4%;
+  overflow: hidden;
+  height: 100%;
+  background-image:
+  url("img/hero-layer-1.png"),
+
+  url("img/hero-layer-2.png"),
+  url("img/hero-layer.png")
+
+  ;
+
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+.hero-area {
+margin: 0;
+padding: 0;
+}
+.hero-1{
+  text-align: left;
+  padding:10% 0;
+}
+.hero-1 h6{
+  background: #e2eaed;
+  padding: 0 .5rem 0 0;
+  border-radius: 28px;
+  display: inline-block;
+
+}
+.hero-1 h1{
+  line-height: 2;
+  margin : .5rem 0 1rem 0;
+}
+
+.hero-1 button {
+  margin: .5rem 1rem 0 0;
+  padding: .5rem 1rem;
+}
+
+.last-p{
+  color : #7a7b80;
+  font-size: 14px;
+  background-color:#fff;
+}
+.hero-1 h6 i {
+  background-color: #feaa25;
+  padding: .5rem;
+  border-radius: 50%;
+}
+.hero-2 {
+
+}
+.hero-img {
+margin-top: 4%;
+  width: 55%;
+}
+
+
+/* --------------------HERO_AREA END--------------*/
+
+/* --------------------FEATURES AREA START--------------*/
+#features {
+  text-align:center;
+}
+#features h1 {
+width: 60%;
+  color : #242f51;
+}
+
+.phone-layer img {
+width : 80%;
+position: relative;
+margin: 17% auto 0 auto;
+}
+#features h6 {
+  color: #616368;
+  font-size: 1rem;
+  margin: 0 0 2rem 0;
+}
+#features p{
+  color: #616368;
+  font-size: 14px;
+  width: 70%;
+}
+
+.desc {
+  padding: 5% 0 0 0%;
+  text-align: left;
+}
+.desc-img {
+  float: left;
+  width: 5rem;
+  margin: 1rem 2rem 2rem 0;
+}
+.desc-detail {
+  text-align: left;
+padding: 6% 0 0% 0;
+}
+
+.inner-desc-detail {
+  margin : 2rem 0 4rem 1rem;
+}
+
+
+.desc-detail h4 {
+  font-size: 1.2rem;
+  }
+  .vector-h {
+color: #7bb791;
+}
+.proto-h {
+  color: #326cff;
+
+}
+.fast-h {
+  color: #f66170;
+
+}
+
+/* --------------------FEATURES AREA END--------------*/
+/* -------------------JACKPOT AREA START--------------*/
+
+.text .inner-text h2 {
+  font-weight: 700;
+color : #2e3858;
+}
+.text .inner-text p {
+  font-size: 15px;
+  margin : auto 1px;
+  width: 80%;
+  position: relative;
+}
+
+.inner-text {
+  border-right: 1px solid grey;
+}
+.inner-text:last-child {
+  border: none;
+  padding-left: 2%;
+
+}
+
+.auto-h {
+  color: #f55767;
+}
+.net-h {
+  color: #2563ff;
+}
+.rewards-h {
+  color : #40975f;
+}
+.inner-jack {
+  padding: 8% 0;
+  text-align: left;
+}
+
+.inner-jack div {
+}
+.inner-jack div img {
+  margin: 2rem 0;
+}
+.inner-jack div p {
+  width : 80%;
+  margin : 1rem 0;
+}
+.learn-more-2 {
+  position: relative;
+  padding-left: 12%;
+  top : 150px ;
+}
+.learn-more-2 h2 {
+  width : 70%;
+  color : #242f51;
+}
+
+.learn-more-2 p {
+  margin : 2rem 0;
+}
+/* -------------------JACKPOT AREA END--------------*/
+/* -------------------Why you  AREA START--------------*/
+
+#why-you {
+  text-align: center;
+}
+#why-you p {
+}
+#why-you h1{
+  margin-bottom: 3rem;
+}
+
+#why-you  img {
+  width: 20%;
+  margin : 4rem 0 2rem 0 ;
+}
+
+.head-p {
+  padding : 0 20%;
+}
+
+/* ------------------WHY YOU AREA END--------------*/
+
+/* ------------------ Ultimate FEATURES AREA START--------------*/
+
+.again-feat {
+  float: left;
+}
+
+#u-feat div:first-child{
+  float: left;
+
+}
+#u-feat p {
+
+}
+.inner-u-feat {
+
+}
+.inner-u-feat img {
+  width: 30%;
+  margin : 3rem 0 1rem 0 ;
+}
+.inner-u-feat h5 {
+font-size: 1rem;
+margin : 1rem 0;
+}
+.inner-u-feat p {
+font-size: .8rem;
+width: 80%;
+}
+.u-feat-phone {
+  float: right;
+  position: absolute;
+  right: 15%;
+    top: 4100px;
+}
+.u-feat-phone img {
+  width: 70%;
+  float: right;
+}
+
+.slider {
+display: none;
+}
+.slider  img {
+  width: 30%;
+  margin : 3rem 0 1rem 0 ;
+}
+
+.slider  h5 {
+font-size: 1rem;
+margin : 1rem 0;
+}
+.slider p {
+font-size: .8rem;
+width: 80%;
+}
+
+
+
+/* ------------------ Ultimate FEATURES AREA END--------------*/
+/* ------------------ PRICING AREA Start--------------*/
+
+#pricing{
+  text-align: center;
+}
+#pricing p {
+  color : #86888b;
+  margin: 2%;
+}
+#pricing h2 {
+  color : #242f51;
+  margin: 3%;
+}
+#pricing span {
+  color : #86888b;
+  font-size: 1.5rem;
+}
+#pricing h3 {
+  color : #86888b;
+font-size: 1rem;
+}
+#pricing h1 {
+  color : #242f51;
+  font-size: 4rem;
+}
+#pricing button {
+  padding :.8rem 2rem;
+}
+.card-body p {
+  margin: 2rem 0 !important;
+}
+.card-body a {
+  text-decoration: none !important;
+  color: #2500f9;
+}
+.card-header h2 {
+  font-size: 1.5rem !important;
+}
+.price-btns{
+  margin: 5% 1% 3% 1%;
+  border-radius: 28px;
+}
+.price-btns-inner{
+  border-radius: 28px;
+}
+.card {
+  box-shadow: 5px 17px 20px 0px;
+}
+/* ------------------ PRICING AREA END--------------*/
